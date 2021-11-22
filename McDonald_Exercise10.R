@@ -19,7 +19,7 @@ lCB <- log(trees$CB)
 trees_log <- cbind(trees, lDBH, lCA, lCV, lD, lCH, lCB)
 trees_log
 
-##Subset data by species 
+##Subset data by species (5 total)
 #sugar maple
 ACSA <- subset(trees_log, trees_log$Species == "Acsa")
 #quaking aspen
